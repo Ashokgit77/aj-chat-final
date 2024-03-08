@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AJ CHAT</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+  </head>
+  <body>
+    <div id="chatbox">
+      <div id="messages"></div>
+      <form id="message-form">
+        <div class="chat-box">
+          <input type="text" id="message" name="question" placeholder="Type your message here..." autocomplete="off">
+          <button type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+  </body>
+</html>

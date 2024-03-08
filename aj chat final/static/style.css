@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #chatbox {
+    width: 600px fit-content;
+    margin:70px 0px 30px 205px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    background-color: grey;
+    height: 400px;
+    /* overflow-y: scroll; */
+  }
+
+  .chat-box{
+    display: flex;
+    width: 500px;
+    margin-top: 350px;
+  }
+  
+  #messages {
+    margin-bottom: 40px;
+  }
+  
+  #message-form {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #message {
+    flex-grow: 1;
+    margin-right: 10px;
+  }
+
+  .chat-box input{
+    border-radius: 30px;
+    border: none;
+    padding: 5px;
+  }
